@@ -1,0 +1,29 @@
+{
+  "name": "@jtmgio/mc-redis",
+  "version": "1.1.6",
+  "description": "This is a library to manage the api for redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtmgio/mc-redis.git"
+  },
+  "keywords": [
+    "npm",
+    "redis"
+  ],
+  "author": "jgonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtmgio/mc-redis/issues"
+  },
+  "homepage": "https://github.com/jtmgio/mc-redis#readme",
+  "dependencies": {
+    "@jtmgio/mc-logger": "^1.1.9",
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "redis": "^2.8.0"
+  }
+}
